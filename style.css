@@ -1,0 +1,191 @@
+
+
+html {
+    font-family: 'Montserrat';
+}
+
+body {
+    /* Transform website to display element like boxes and center it X-Y axis */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(230, 230, 230);
+}
+
+/* Style all text block */
+
+.text {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+   
+}
+
+
+
+.text h2,.text h3 {
+
+    color: gray;
+
+}
+
+.text p {
+    font-size: 1.05em;
+    color: rgb(124, 124, 124);
+    line-height: 1.5em;
+}
+
+
+/* This is the Profile Section Style */
+
+#timProfile.profile{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 38%;
+    padding-bottom: 10px;
+    padding-top: 20px; 
+    padding-right: 2%;
+    padding-left: 2%;
+    background: white;
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.329);
+
+
+}
+
+#timProfile.profile h1 {
+    color:  rgb(212, 62, 62);
+    font-size: 1.9em;
+    line-height: 10px;
+}
+
+#timProfile.profile .timPhoto {
+
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    border: 4px solid rgb(216, 216, 216);
+    margin-bottom: 20px;
+
+}
+
+
+#timProfile.profile .btn-red {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    height: 50px;
+    width:  170px;
+    padding: 1px;
+    background: rgb(212, 62, 62);
+    color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+/* This is the Social Network Style */
+
+#socialNetwork.social {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 200px;
+    width: 38%;
+    padding-right: 2%;
+    padding-left: 2%;
+    background: white;
+    text-align: center;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.329);
+
+}
+
+#socialNetwork.social ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-right: 50px;
+}
+#socialNetwork.social ul li  {
+
+    margin: 20%;
+
+}
+#socialNetwork.social ul li a {
+    text-decoration-line: none;
+    color: rgb(192, 191, 191);
+    
+}
+
+#socialNetwork.social ul li a i {
+    font-size: 2em;
+    color:rgb(192, 191, 191);
+    line-height: 2em;
+   
+}
+
+/* This is the favorites movies style */
+
+
+#favoritesMovies.movies {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 38%;
+    padding :2%;
+    background: white;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.329);
+
+}
+
+
+#favoritesMovies.movies h2 {
+    margin-bottom: 3em;
+    color: rgb(124, 124, 124);
+}
+
+#favoritesMovies.movies .spaceOdyssey {
+    display: flex;
+    margin-bottom: 80px;
+    
+
+}
+
+#favoritesMovies.movies .lesVacances {
+    display: flex; 
+    margin-bottom: 80px;
+}
+
+#favoritesMovies.movies .alien {
+    display: flex;
+    margin-bottom: 80px;
+}
+
+#favoritesMovies.movies div img {
+    margin-top: 20px;
+    margin-right: 40px;
+    height: 110%;
+    
+}
+
+/* END OF THE STYLESHEET */
