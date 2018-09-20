@@ -1,4 +1,7 @@
-
+@font-face {
+    src: url("fonts/Montserrat-Regular.ttf") format("opentype");
+    font-family: "Montserrat";
+}
 
 html {
     font-family: 'Montserrat';
