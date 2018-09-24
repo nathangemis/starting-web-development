@@ -7,3 +7,7 @@ The exercise involved coding an image representing a Berners-Lee tim profile pag
 You can see the results by clicking on the link below. 
 
 https://nathangemis.github.io/starting-web-development/
+
+
+
+If you want to download the files, just click on the green button "clone or download" and then on "Download Zip"
