@@ -3,3 +3,7 @@
 
 Here is an exercise that I had to perform during my training "Becode".
 The exercise involved coding an image representing a Berners-Lee tim profile page using only HTML and CSS.
+
+You can see the results by clicking on the link below. 
+
+https://nathangemis.github.io/starting-web-development/
